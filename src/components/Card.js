@@ -12,7 +12,7 @@ export default function Card({ openSpot, location, coverImg, stats, title, price
 
 
     return (
-        <section className="card">
+        <div className="card">
             {badgeText && <div className="card--badge">{badgeText}</div>}
             <img src={coverImg} alt="cardImage" className="card--image" />
             <div className="card--stats">
@@ -22,8 +22,8 @@ export default function Card({ openSpot, location, coverImg, stats, title, price
                 <span className="gray">{location}</span>
             </div>
             <p className="card--title"> {title}</p>
-            <p><span className="card--price">From ${price} </span>/ person</p>
+            <p className="card--price"><span className="bold">From ${price} </span>/ person</p>
 
-        </section>
+        </div>
     )
 }

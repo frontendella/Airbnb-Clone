@@ -73,14 +73,18 @@ nav {
 .card--title {
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: auto;
 }
 
 .card--star {
   height: 14px;
 }
 .card--price {
+  margin-top: 0;
+}
+
+.bold {
   font-weight: bold;
-  margin-top: auto;
 }
 
 .card--badge {
