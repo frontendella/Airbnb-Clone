@@ -1,7 +1,6 @@
 # [Airbnb Clone]()
 
-![image](https://user-images.githubusercontent.com/82247833/201847972-80d272e5-08e2-450e-9481-d4146ddec88d.png)
-
+<img align="right" width="500px" src="https://user-images.githubusercontent.com/82247833/201847972-80d272e5-08e2-450e-9481-d4146ddec88d.png"/>
 
 ### Description
 
